@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y0RjfXrvsXaJFEwuows/yom1ugTeKPW9060vnuKvxs7Z8oj5EswCmh6MHoWy2qFuw3ECJINcUaURpxT+j2GeWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tcols\\source\\repos\\Assignment1\\Assignment1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tcols\\.nuget\\packages\\odetocode.usenodemodules\\3.0.0\\odetocode.usenodemodules.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

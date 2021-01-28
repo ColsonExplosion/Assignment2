@@ -1,0 +1,35 @@
+﻿@*
+    ViewBag to set header value for gradeCalc page
+*@
+@{
+    ViewBag.Header = "Calculate Your Grade";
+}
+
+
+<!--view for gradeCalc page. Form that allows user to inpur grade percentages.-->
+<body>
+    <h2>Grade Calculator</h2>
+    <form>
+        <label>Assignments:</label>
+        <input id="assignments" type="number" min="0" max="100" />
+        <br />
+        <br />
+        <label>Group Project:</label>
+        <input id="groupProjects" type="number" min="0" max="100"/>
+        <br />
+        <br />
+        <label>Quizzes:</label>
+        <input id="quizzes" type="number" min="0" max="100"/>
+        <br />
+        <br />
+        <label>Exams:</label>
+        <input id="exams" type="number" min="0" max="100"/>
+        <br />
+        <br />
+        <label>INTEX:</label>
+        <input id="intex" type="number" min="0" max="100"/>
+        <br />
+        <br />
+        <input type="submit" value="Calculate" id="submitButton" />
+    </form>
+</body>
